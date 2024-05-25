@@ -5,8 +5,14 @@ const SoundCloudPlayer = () => {
     "https://api.soundcloud.com/tracks/1586388191",
     "https://api.soundcloud.com/tracks/1586388139",
     "https://api.soundcloud.com/tracks/1586388067",
-    "https://api.soundcloud.com/tracks/1586388191",
-  ];
+    "https://api.soundcloud.com/tracks/1586387979",
+    "https://api.soundcloud.com/tracks/1586387927",
+    "https://api.soundcloud.com/tracks/1586387827",
+    "https://api.soundcloud.com/tracks/1586387755",
+    "https://api.soundcloud.com/tracks/15863877703",
+    "https://api.soundcloud.com/tracks/1586387639",
+    
+  ]
 
   return (
     <div className="container mx-auto p-4">
@@ -18,7 +24,7 @@ const SoundCloudPlayer = () => {
               height="166"
               allow="autoplay"
               className="w-full h-full"
-              src={`https://w.soundcloud.com/player/?url=${encodeURIComponent(track)}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true`}
+              src={`https://w.soundcloud.com/player/?url=${encodeURIComponent(track)}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true`}
             ></iframe>
           </div>
         ))}
