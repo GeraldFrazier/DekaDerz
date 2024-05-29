@@ -35,7 +35,7 @@ const YouTubeGrid = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">My YouTube Videos</h1>
+      <h1 className="text-2xl font-bold mb-4 justify-center">Deka YouTube Videos</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {videos.map((video) => (
           <div key={video.id.videoId} className="bg-white shadow-md rounded-lg overflow-hidden">

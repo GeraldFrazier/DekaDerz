@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const SoundCloudPlayer = () => {
   const tracks = [
     "https://api.soundcloud.com/tracks/1586388355",
@@ -11,8 +13,7 @@ const SoundCloudPlayer = () => {
     "https://api.soundcloud.com/tracks/1586387755",
     "https://api.soundcloud.com/tracks/15863877703",
     "https://api.soundcloud.com/tracks/1586387639",
-    
-  ]
+  ];
 
   return (
     <div className="container mx-auto p-4">
@@ -28,6 +29,15 @@ const SoundCloudPlayer = () => {
             ></iframe>
           </div>
         ))}
+      </div>
+      <div className="mt-4">
+        <Link href="/other-page">
+          <a>
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              Go to Other Page
+            </button>
+          </a>
+        </Link>
       </div>
     </div>
   );
