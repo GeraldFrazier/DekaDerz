@@ -31,10 +31,10 @@ const SoundCloudPlayer = () => {
         ))}
       </div>
       <div className="mt-4">
-        <Link href="/other-page">
+        <Link href="/youtube">
           <a>
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-              Go to Other Page
+              Videos
             </button>
           </a>
         </Link>

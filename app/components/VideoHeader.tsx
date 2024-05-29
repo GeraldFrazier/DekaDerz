@@ -26,7 +26,7 @@ const VideoHeader = () => {
     <>
       <header className="bg-black text-white py-4">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-xl font-bold">My Website</h1>
+          {/* <h1 className="text-xl font-bold">My Website</h1> */}
           <nav className="flex space-x-4">
             <button onClick={() => window.location.href = 'https://www.instagram.com/dekaderse'} aria-label="Instagram" className="hover:opacity-80">
               <svg className="h-7 w-7 fill-current text-pink-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
